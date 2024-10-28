@@ -1,0 +1,219 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    font-size: 5vw;
+    padding: 2vh;
+}
+.nav-list{
+    display: flex;
+    list-style-type:none;
+    font-size: 2vw;
+    gap: 7vw;
+    margin-top: 7vh;
+
+}
+.nav-st{
+    color: rgb(227, 94, 12);
+    font-size: 5vh;
+
+}
+ div .nav_el ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: black;
+    background-color: rgb(155, 21, 103);
+    position: absolute;
+    right:0;
+    top: 0;
+    height: 100vh;
+     min-width: 30vw;
+     list-style: none;
+     padding: 10px 15px;
+}
+.candy{
+    display: none;
+}
+
+.new
+{
+    color: black;
+    font-size: 1rem;
+}
+.dora button
+{
+    font-size: 4vh;
+    color: black;
+    background-color: rgb(87, 151, 180);
+    border: none;
+    
+    border-radius: 1vh;
+}
+.dora{
+    margin-top: -8vh;
+    margin-left: 55vw;
+}
+
+main{
+    display: flex;
+     justify-content: center;
+     align-items:center;
+    
+}
+.top h2{
+    font-size: 3vw;
+    margin-top: 11vh;
+    margin-left: 10vw;
+}
+span{
+    color: rgb(214, 27, 136);
+}
+.top{ 
+    font-size: 0;
+    float: left;
+    width: 50%;
+}
+
+.top p
+
+{  display: flex;
+    color: rgb(200, 188, 236);
+    margin-top:1vh;
+    font-size: 3vh;
+    width: 38vw;
+    margin-left:10vw;
+
+}
+
+
+.top button{
+    display: flex;
+    margin-top:1vh;
+    padding: 0.7vh 3vw;
+    font-size: 1.5vw;
+    border: none;
+    border-radius: 0.7vw;
+    background-color: rgb(211, 41, 140);
+    color: whitesmoke;
+    cursor: pointer;
+    margin-left: 10vw;
+    }
+    
+.next{
+    float: right;
+    width: 40vw;
+    height: 50vh;
+}
+.next img{
+    display: flex;
+    width: 40vw;
+    height: 40vh;
+    margin-top: 10vh;      
+}
+.pic:hover{
+    transform:rotate(-5deg) scale(1.1);
+    transition: 1s;
+}
+@media  screen and (max-width: 480px)
+{
+ .nav-st{
+    font-size:5vh;
+ } 
+ .nav-list {
+    display: none;
+ } 
+.dora button
+{
+    font-size: 3vh; 
+    
+}
+.dora{
+    display: flex;
+    margin-left: 6vw;
+    margin-top: 1vh;
+}
+.val{
+    margin-left: 1vw;
+
+}
+
+main{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-top:1vh;
+}
+.next img {
+margin-top: 0.5vh;
+}
+.top{
+margin-top: -19vh;
+margin-left: -10vw;
+
+}
+.top p {
+    width: 51vw;
+}
+.top h2{
+    font-size: 3.8vh;
+}
+nav div.nav_el {
+    display: none;
+}
+.candy{
+    display: block;
+}
+
+  nav div.candy button:focus + div.nav_el{
+        display:block ;
+     }
+
+}
+
+/* tab screen*/
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .nav-st{
+        font-size: 4vh;
+    }
+    .nav-list{
+        font-size: 2vw;
+    }
+    .dora button{
+        font-size: 3vh;
+    }
+    main{
+        padding-top: 15vh;
+    }
+    .top{
+        font-size: 2.5vw;
+    }
+    .top h2{
+        font-size: 5vw;
+    }
+    .top p{
+        font-size: 3vw;
+    }
+    .top button{
+        font-size: 3.5vw;
+    }
+    .next img{
+        width: 30vw;
+        height: 35vh;
+    }
+}
+
+
+
+
